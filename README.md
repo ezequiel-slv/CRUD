@@ -1,10 +1,10 @@
 # Cadastro CRUD em Java
 
-Aplicação CRUD (Create, Read, ‘Update’, delete) desenvolvida em Java, utilizando JavaFX e FXML para construção da interface gráfica. O projeto segue uma arquitetura em camadas e utiliza Apache Maven para gerenciamento de dependências.
+Aplicação CRUD (Create, Read, Update, delete) desenvolvida em Java, utilizando JavaFX e FXML para construção da interface gráfica. O projeto segue uma arquitetura em camadas e utiliza Apache Maven para gerenciamento de dependências.
 
 Além disso, conta com integração a banco de dados e suporte a execução via Docker.
 
-# Funcionalidades
+Funcionalidades:
 
 Cadastro de usuários
 Listagem de registros
@@ -12,7 +12,7 @@ Atualização de dados
 Exclusão de registros
 Persistência em banco de dados
 
-# Tecnologias Utilizadas
+Tecnologias Utilizadas:
 Java 25
 JavaFX
 FXML
@@ -22,22 +22,22 @@ Banco de dados (configure conforme o docker-compose.yml)
 
 # Como Executar o Projeto
 
-# Pré-requisitos
+Pré-requisitos:
 JDK 17 ou superior (recomendado: Java 25)
 Maven instalado
 Docker e Docker Compose instalados
 
-# Suba o banco de dados
+Suba o banco de dados:
 docker-compose up -d
 
-Execute a aplicação
-# Clone o repositório
+# Execute a aplicação
+Clone o repositório
 git clone https://github.com/ezequiel-slv/Cadastro-crud.git
 
-# Acesse a pasta
+Acesse a pasta
 cd cadastro-crud
 
-# Execute o projeto
+Execute o projeto
 mvn clean javafx:run
 
 Ou execute diretamente a classe Main pela IDE.
@@ -45,7 +45,7 @@ Ou execute diretamente a classe Main pela IDE.
 # Estrutura do Projeto
 src/main/java/com/ezequiel/cadastrocrud/
 
-├── connection/   # Conexão com o banco de dados
+├── connection/ # Conexão com o banco de dados
 
 ├── controller/   # Controle da interface (JavaFX)
 
@@ -56,9 +56,9 @@ src/main/java/com/ezequiel/cadastrocrud/
 ├── service/      # Regras de negócio
 
 └── Main.java     # Ponto de entrada da aplicação
+
 # Arquitetura da Aplicação
 
-O projeto segue uma divisão em camadas, separando responsabilidades:
 
 Connection: responsável pela comunicação com o banco de dados
 
@@ -91,7 +91,7 @@ Local: src/main/db
 Certifique-se de configurar corretamente as credenciais de conexão no código.
 
 # Fluxo da Aplicação
-O usuário interage com a interface (FXML)
+O usuário interage com a ‘interface’ (FXML)
 
 O Controller captura o evento
 
@@ -103,7 +103,7 @@ A camada de Connection comunica com o banco
 
 # Referência
 
-Este projeto foi desenvolvido com base em um tutorial, sendo adaptado e expandido de acordo com a necessidade
+Este projeto foi desenvolvido com base em um tutorial, sendo adaptado e expandido conforme a necessidade
 
 👤 Autor
 
