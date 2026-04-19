@@ -103,7 +103,7 @@ A camada de Connection comunica com o banco
 
 # Referência
 
-Este projeto foi desenvolvido com base em um tutorial, sendo adaptado e expandido conforme a necessidade
+Este projeto foi desenvolvido com base em outras fontes, sendo adaptado e expandido conforme a necessidade
 
 👤 Autor
 
