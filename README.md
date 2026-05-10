@@ -1,6 +1,6 @@
 # Cadastro CRUD em Java
 
-Aplicação CRUD (Create, Read, Update, delete) desenvolvida em Java, utilizando JavaFX e FXML para construção da interface gráfica. O projeto segue uma arquitetura em camadas e utiliza Apache Maven para gerenciamento de dependências.
+Aplicação CRUD (Create, Read, Update, delete) desenvolvida em Java, utilizando JavaFX e FXML para construção de uma interface gráfica. O projeto segue uma arquitetura em camadas e utiliza Apache Maven para gerenciamento de dependências.
 
 Além disso, conta com integração a banco de dados e suporte a execução via Docker.
 
@@ -18,7 +18,11 @@ JavaFX
 FXML
 Maven
 Docker
-Banco de dados (configure conforme o docker-compose.yml)
+Banco de Dados (para fins didáticos, recomenda-se criar uma base própria)
+• Cliente/GUI: DBeaver
+• SGBD: MySQL
+• Linguagem de consulta: SQL
+  
 
 # Como Executar o Projeto
 
