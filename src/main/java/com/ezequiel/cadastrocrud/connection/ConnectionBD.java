@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class ConnectionBD {
 
-    private static final String URL = "jdbc:mysql://localhost:3308/data_base_crud";
-    private static final String USER = "dev";
-    private static final String PASSWORD = "dev123";
+    private static final String URL = System.getenv("MYSQL_URL");
+    private static final String USER = System.getenv("MYSQL_USER");
+    private static final String PASSWORD = System.getenv("MYSQL_PASSWORD");
 
     public static Connection connectonDB(){
         try {
