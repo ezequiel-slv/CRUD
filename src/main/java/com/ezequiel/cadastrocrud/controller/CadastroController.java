@@ -33,9 +33,6 @@ public class CadastroController implements Initializable {
     private RadioButton rb_masculino;
 
     @FXML
-    private ToggleGroup sexo;
-
-    @FXML
     private TableColumn<User, Long> tc_id;
 
     @FXML
@@ -68,7 +65,6 @@ public class CadastroController implements Initializable {
 
     @FXML
     public void salvarDados(ActionEvent event){
-
         if (validar()) {
             user.setNome(tf_nome.getText());
             user.setIdade(Integer.parseInt(tf_idade.getText()));
